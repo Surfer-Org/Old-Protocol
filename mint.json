@@ -52,7 +52,7 @@
       "group": "Core",
       "pages": [
         "platforms/introduction",
-        "platforms/adding_platforms"
+        "platforms/adding-platforms"
       ]
     },
     {
@@ -60,6 +60,7 @@
       "pages": [
         "platforms/github",
         "platforms/notion",
+        "platforms/gmail",
         {
           "group": "Social Media",
           "pages": [

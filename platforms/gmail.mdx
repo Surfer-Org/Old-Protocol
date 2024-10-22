@@ -1,0 +1,40 @@
+---
+title: 'Gmail'
+description: 'Instructions for exporting your Gmail data.'
+---
+
+<Check>
+Last updated: 2024-10-22
+</Check>
+
+<Steps>
+  <Step title="Go to Google Takeout for Gmail and select 'All mail data included' to customize your data export">
+    Navigate to [Google Takeout for Gmail](https://takeout.google.com/settings/takeout/custom/gmail)
+    <Frame>
+      <img src="/images/gmail/gmail-step1.png" />
+    </Frame>
+  </Step>
+  <Step title="Choose the filetype, frequency and destination, and click 'Create export'">
+    <Frame>
+      <img src="/images/gmail/gmail-step2.png" />
+    </Frame>
+  </Step>
+  <Step title="You should see a confirmation like this and receive an email when it's ready.">
+    <Frame>
+      <img src="/images/gmail/gmail-step3.png" />
+    </Frame>
+  </Step>
+  <Step title="You should receive an email that looks like this and may have to sign in to Drive to download the file">
+    <Frame>
+      <img src="/images/gmail/gmail-step4.png" />
+    </Frame>
+  </Step>
+  <Step title="Takeout (unfortunately) gives you your Gmail data in an MBOX format, which is not very user friendly.">
+    You can use these MBOX to JSON converters:
+    - [Python](https://github.com/PS1607/mbox-to-json)
+    - [Node.js](https://github.com/d4data-official/mbox-to-json)
+    <Info>
+      A [GitHub issue](https://github.com/Surfer-Protocol/Protocol/issues/3) has been opened to build a no-code solution for this where you can upload your MBOX file and get a JSON export.
+    </Info>
+  </Step>
+</Steps>
