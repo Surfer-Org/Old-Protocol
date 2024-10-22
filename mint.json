@@ -8,12 +8,12 @@
     "href": "https://surferprotocol.org"
   },
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0066cc",
+    "light": "#4da6ff",
+    "dark": "#003366",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0066cc",
+      "to": "#4da6ff"
     }
   },
   "topbarLinks": [
@@ -30,10 +30,6 @@
     {
       "name": "Platforms",
       "url": "platforms"
-    },
-    {
-      "name": "Community Projects",
-      "url": "community-projects"
     }
   ],
   "anchors": [
@@ -45,23 +41,40 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "The Surfer Protocol",
       "pages": [
         "manifesto",
-        "contributing",
-        "adding_platforms"
+        "partnerships",
+        "contributing"
+      ]
+    },
+    {
+      "group": "Core",
+      "pages": [
+        "platforms/introduction",
+        "platforms/adding_platforms"
       ]
     },
     {
       "group": "Platforms",
       "pages": [
-        "platforms/introduction",
-        "platforms/youtube",
         "platforms/github",
         "platforms/notion",
-        "platforms/twitter",
-        "platforms/linkedin",
-        "platforms/imessage"
+        {
+          "group": "Social Media",
+          "pages": [
+            "platforms/social-media/linkedin",
+            "platforms/social-media/twitter",
+            "platforms/social-media/youtube"
+          ]
+        },
+        {
+          "group": "Messaging",
+          "pages": [
+            "platforms/messaging/imessage",
+            "platforms/messaging/telegram"
+          ]
+        }
       ]
     },
     {
