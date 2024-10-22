@@ -58,15 +58,52 @@
     {
       "group": "Platforms",
       "pages": [
-        "platforms/github",
-        "platforms/notion",
-        "platforms/gmail",
+        {
+          "group": "GitHub",
+          "pages": [
+            "platforms/github/github-main",
+            "platforms/github/github-default"
+          ]
+        },
+        {
+          "group": "Notion",
+          "pages": [
+            "platforms/notion/notion-main",
+            "platforms/notion/notion-default"
+          ]
+        },
+        {
+          "group": "Gmail",
+          "pages": [
+            "platforms/gmail/gmail-main",
+            "platforms/gmail/gmail-default"
+          ]
+        },
         {
           "group": "Social Media",
           "pages": [
-            "platforms/social-media/linkedin",
-            "platforms/social-media/twitter",
-            "platforms/social-media/youtube"
+            {
+              "group": "LinkedIn",
+              "pages": [
+                "platforms/social-media/linkedin/linkedin-main",
+                "platforms/social-media/linkedin/linkedin-default"
+              ]
+            },
+            {
+              "group": "Twitter",
+              "pages": [
+                "platforms/social-media/twitter/twitter-main",
+                "platforms/social-media/twitter/twitter-default",
+                "platforms/social-media/twitter/twitter-bookmarks-extension"
+              ]
+            },
+            {
+              "group": "YouTube",
+              "pages": [
+                "platforms/social-media/youtube/youtube-main",
+                "platforms/social-media/youtube/youtube-default"
+              ]
+            }
           ]
         },
         {
