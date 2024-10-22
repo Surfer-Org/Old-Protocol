@@ -52,33 +52,13 @@
       "group": "Core",
       "pages": [
         "platforms/introduction",
-        "platforms/adding-platforms"
+        "platforms/adding/platforms",
+        "platforms/adding/methods"
       ]
     },
     {
       "group": "Platforms",
       "pages": [
-        {
-          "group": "GitHub",
-          "pages": [
-            "platforms/github/github-main",
-            "platforms/github/github-default"
-          ]
-        },
-        {
-          "group": "Notion",
-          "pages": [
-            "platforms/notion/notion-main",
-            "platforms/notion/notion-default"
-          ]
-        },
-        {
-          "group": "Gmail",
-          "pages": [
-            "platforms/gmail/gmail-main",
-            "platforms/gmail/gmail-default"
-          ]
-        },
         {
           "group": "Social Media",
           "pages": [
@@ -109,8 +89,39 @@
         {
           "group": "Messaging",
           "pages": [
-            "platforms/messaging/imessage",
-            "platforms/messaging/telegram"
+            {
+              "group": "iMessage",
+              "pages": [
+                "platforms/messaging/imessage/imessage-main"
+              ]
+            },
+            {
+              "group": "Telegram",
+              "pages": [
+                "platforms/messaging/telegram/telegram-main"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "GitHub",
+          "pages": [
+            "platforms/github/github-main",
+            "platforms/github/github-default"
+          ]
+        },
+        {
+          "group": "Notion",
+          "pages": [
+            "platforms/notion/notion-main",
+            "platforms/notion/notion-default"
+          ]
+        },
+        {
+          "group": "Gmail",
+          "pages": [
+            "platforms/gmail/gmail-main",
+            "platforms/gmail/gmail-default"
           ]
         }
       ]
