@@ -75,16 +75,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Mintlify](https://mintlify.com/)
 
-[contributors-shield]: https://img.shields.io/github/contributors/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
-[contributors-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
-[forks-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/network/members
-[stars-shield]: https://img.shields.io/github/stars/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
-[stars-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/stargazers
-[issues-shield]: https://img.shields.io/github/issues/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
-[issues-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/issues
-[license-shield]: https://img.shields.io/github/license/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
-[license-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Surfer-Protocol/Protocol.svg?style=for-the-badge
+[contributors-url]: https://github.com/Surfer-Protocol/Protocol/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Surfer-Protocol/Protocol.svg?style=for-the-badge
+[forks-url]: https://github.com/Surfer-Protocol/Protocol/network/members
+[stars-shield]: https://img.shields.io/github/stars/Surfer-Protocol/Protocol.svg?style=for-the-badge
+[stars-url]: https://github.com/Surfer-Protocol/Protocol/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Surfer-Protocol/Protocol.svg?style=for-the-badge
+[issues-url]: https://github.com/Surfer-Protocol/Protocol/issues
+[license-shield]: https://img.shields.io/github/license/Surfer-Protocol/Protocol.svg?style=for-the-badge
+[license-url]: https://github.com/Surfer-Protocol/Protocol/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cerebrus-maximus
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
