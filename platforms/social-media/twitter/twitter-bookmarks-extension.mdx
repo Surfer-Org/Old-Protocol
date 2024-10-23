@@ -45,3 +45,27 @@ Last updated: 2024-10-22
     </Frame>
   </Step>
 </Steps>
+
+## Data Export Format
+
+Export type: `JSON`
+
+<Accordion title={`bookmarks_[current_timestamp].json`}>
+  <AccordionGroup>
+    ```json
+    [
+      {
+        "id": "tweet-id",
+        "full_text": "tweet-text",
+        "timestamp": "tweet-timestamp",
+        "media": {
+          "type": "tweet-media-type",
+          "source": "tweet-media-source"
+        }
+      },
+      ...
+    ]
+    ```
+  </AccordionGroup>
+</Accordion>
+
