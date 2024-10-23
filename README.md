@@ -65,7 +65,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Built with 
 
-- [Mintlify](https://mintlify.com/) for the documentation platform
+- [Mintlify](https://mintlify.com/)
 
 ## Contact 
 
@@ -73,4 +73,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- [Mintlify](https://mintlify.com/) for the documentation platform
+- [Mintlify](https://mintlify.com/)
+
+[contributors-shield]: https://img.shields.io/github/contributors/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
+[contributors-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
+[forks-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/network/members
+[stars-shield]: https://img.shields.io/github/stars/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
+[stars-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/stargazers
+[issues-shield]: https://img.shields.io/github/issues/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
+[issues-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/issues
+[license-shield]: https://img.shields.io/github/license/CEREBRUS-MAXIMUS/Surfer-Data.svg?style=for-the-badge
+[license-url]: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/cerebrus-maximus
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwind.css]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[Electron.js]: https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9
+[Electron-url]: https://www.electronjs.org/
+[Shadcn.ui]: https://img.shields.io/badge/Shadcn_UI-F05032?style=for-the-badge&logo=shadcn&logoColor=white
+[Shadcn-url]: https://ui.shadcn.com/
