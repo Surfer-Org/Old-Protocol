@@ -23,7 +23,7 @@
     }
   ],
   "topbarCtaButton": {
-    "type": "github",
+    "name": "Contribute",
     "url": "https://github.com/Surfer-Protocol/Protocol"
   },
   "tabs": [

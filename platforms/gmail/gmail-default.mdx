@@ -38,3 +38,91 @@ Last updated: 2024-10-22
     </Info>
   </Step>
 </Steps>
+
+## Data Export Format
+
+Export type: `ZIP`
+
+<Info>
+  Make sure to unzip the file before opening it.
+</Info>
+
+<AccordionGroup>
+  <Accordion title="Gmail Unzipped Folder">
+    <AccordionGroup>
+      <Accordion title="Takeout">
+        <AccordionGroup>
+          <Accordion title="Mail">
+            <AccordionGroup>
+              <Accordion title="User Settings">
+                <AccordionGroup>
+                  <Accordion title="Signatures.json">
+                    ```json
+                    {
+                      "iosSignature": "Example Signature"
+                    }
+                    ```
+                  </Accordion>
+                  <Accordion title="Blocked Addresses.json">
+                    ```json
+                    {
+                      "addresses": [
+                        "example@example.com"
+                      ]
+                    }
+                    ```
+                  </Accordion>
+                </AccordionGroup>
+              </Accordion>
+              <Accordion title="All mail Including Spam and Trash.mbox">
+                <Info>
+                  This is an MBOX (not JSON) file. We are working on a converter.
+                </Info>
+                ```json
+                [
+                  {
+                    "id": "your_email_id",
+                    "threadId": "your_thread_id",
+                    "labels": ["Trash", "Category Updates", "Unread"],
+                    "deliveredTo": "example@gmail.com",
+                    "from": "Example Sender <sender@example.com>",
+                    "replyTo": "no-reply@example.com",
+                    "to": "example@gmail.com",
+                    "subject": "Example Subject",
+                    "date": "Mon, 21 Oct 2024 02:21:11 +0000",
+                    "contentType": "multipart/alternative",
+                    "body": {
+                      "text": "This is an example email body in plain text.",
+                      "html": "<html><body><p>This is an example email body in HTML.</p></body></html>"
+                    },
+                    "attachments": [],
+                    "headers": {
+                        "X-GM-THRID": "your_x_gm_thrid",
+                        "X-Gmail-Labels": "your_x_gmail_labels",
+                        "X-Google-Smtp-Source": "your_x_google_smtp_source",
+                        "X-Received": "your_x_received",
+                        "ARC-Seal": "your_arc_seal",
+                        "ARC-Message-Signature": "your_arc_message_signature",
+                        "ARC-Authentication-Results": "your_arc_authentication_results",
+                        "Return-Path": "<your_return_path@example.com>",
+                        "Received-SPF": "pass (example.com: domain of your_return_path@example.com designates 123.456.789.0 as permitted sender) client-ip=123.456.789.0;",
+                        "Authentication-Results": "mx.example.com; dkim=pass header.i=@example.com header.s=your_dkim_selector header.b=\"your_dkim_signature\"; spf=pass (example.com: domain of your_return_path@example.com designates 123.456.789.0 as permitted sender) smtp.mailfrom=your_return_path@example.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=example.com",
+                        "DKIM-Signature": [
+                          "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=your_dkim_selector; d=example.com; t=your_timestamp; h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date; bh=your_body_hash; b=your_dkim_signature",
+                          "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=your_dkim_selector; d=amazonses.com; t=your_timestamp; h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID; bh=your_body_hash; b=your_dkim_signature"
+                        ]
+                      }
+                  },
+                  ...
+                ] 
+                    ```
+                  </Accordion>
+            </AccordionGroup>
+          </Accordion>
+          <Card title="archive_browser.html">
+          </Card>
+        </AccordionGroup>
+      </Accordion>
+    </AccordionGroup>
+  </Accordion>
+</AccordionGroup>

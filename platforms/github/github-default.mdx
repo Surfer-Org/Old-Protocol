@@ -24,3 +24,252 @@ Last updated: 2024-10-22
     </Frame>
   </Step>
 </Steps>
+
+## Data Export Format
+
+Filetype: `TAR.GZ`
+
+<AccordionGroup>
+  <Accordion title="GitHub Folder">
+    <AccordionGroup>
+      <Accordion title="issue_events_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "url": "string",
+            "pull_request": "string",
+            "actor": "string",
+            "event": "string",
+            "created_at": "string"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="repositories_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "url": "string",
+            "owner": "string",
+            "name": "string",
+            "description": "string",
+            "website": "null",
+            "private": "integer",
+            "has_issues": "integer",
+            "has_wiki": "integer",
+            "has_downloads": "integer",
+            "is_archived": "integer",
+            "labels": "array",
+            "collaborators": "array",
+            "created_at": "string",
+            "git_url": "string",
+            "default_branch": "string",
+            "webhooks": "array",
+            "page": "null",
+            "public_keys": "array",
+            "repository_topics": "array",
+            "security_and_analysis": "object",
+            "autolinks": "array",
+            "general_settings": "object",
+            "actions_general_settings": "object"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="schema.json">
+        ```json
+        {
+          "version": "string",
+          "github_sha": "string"
+        }
+        ```
+      </Accordion>
+      <Accordion title="pull_requests_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "url": "string",
+            "user": "string",
+            "repository": "string",
+            "title": "string",
+            "body": "string",
+            "base": "object",
+            "head": "object",
+            "assignee": "null",
+            "assignees": "array",
+            "milestone": "null",
+            "labels": "array",
+            "reactions": "array",
+            "review_requests": "array",
+            "close_issue_references": "array",
+            "work_in_progress": "integer",
+            "merged_at": "null",
+            "closed_at": "string",
+            "created_at": "string",
+            "merge_commit_sha": "string"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="protected_branches_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "name": "string",
+            "url": "string",
+            "creator_url": "string",
+            "repository_url": "string",
+            "admin_enforced": "integer",
+            "block_deletions_enforcement_level": "integer",
+            "block_force_pushes_enforcement_level": "integer",
+            "dismiss_stale_reviews_on_push": "integer",
+            "pull_request_reviews_enforcement_level": "string",
+            "require_code_owner_review": "integer",
+            "required_status_checks_enforcement_level": "string",
+            "strict_required_status_checks_policy": "integer",
+            "authorized_actors_only": "integer",
+            "authorized_user_urls": "array",
+            "authorized_team_urls": "array",
+            "dismissal_restricted_user_urls": "array",
+            "dismissal_restricted_team_urls": "array",
+            "required_status_checks": "array",
+            "requires_approving_reviews": "integer",
+            "required_approving_review_count": "integer",
+            "requires_commit_signatures": "integer",
+            "requires_linear_history": "integer",
+            "blocks_creations": "integer",
+            "allows_force_pushes": "integer",
+            "allows_deletions": "integer",
+            "requires_status_checks": "integer",
+            "restricts_review_dismissals": "integer",
+            "requires_review_thread_resolution": "integer",
+            "require_last_push_approval": "integer"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="users_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "url": "string",
+            "avatar_url": "string",
+            "login": "string",
+            "name": "string",
+            "bio": "string",
+            "company": "null",
+            "website": "null",
+            "location": "string",
+            "emails": "array",
+            "social_accounts": "array",
+            "billing_plan": "null",
+            "created_at": "string"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="releases_000001.json">
+        ```json
+        [
+          {
+            "type": "string",
+            "url": "string",
+            "repository": "string",
+            "user": "string",
+            "name": "string",
+            "tag_name": "string",
+            "body": "string",
+            "state": "string",
+            "pending_tag": "string",
+            "prerelease": "integer",
+            "target_commitish": "string",
+            "release_assets": "array",
+            "reactions": "array",
+            "published_at": "string",
+            "created_at": "string"
+          },
+          ...
+        ]
+        ```
+      </Accordion>
+      <Accordion title="Releases">
+        <AccordionGroup>
+          <Accordion title="release_1">
+            <Card title="release_1.exe">
+            </Card>
+          </Accordion>
+          <Accordion title="release_2">
+            <Card title="release_2.exe">
+            </Card>
+          </Accordion>
+        </AccordionGroup>
+      </Accordion>
+      <Accordion title="Repositories">
+        <AccordionGroup>
+          <Accordion title="github-username">
+            <AccordionGroup>
+              <Accordion title="repo_1.git">
+                <AccordionGroup>
+                  <Accordion title="objects/pack">
+                    <Accordion title="pack-hash.idx">
+                    </Accordion>
+                    <Accordion title="pack-hash.pack">
+                    </Accordion>
+                  </Accordion>
+                  <Accordion title="config">
+                  </Accordion>
+                  <Accordion title="hooks">
+                    <Accordion title="post-update.sample">
+                    </Accordion>
+                    <Accordion title="fsmonitor-watchman.sample">
+                    </Accordion>
+                    <Accordion title="pre-commit.sample">
+                    </Accordion>
+                    <Accordion title="pre-receive.sample">
+                    </Accordion>
+                    <Accordion title="pre-applypatch.sample">
+                    </Accordion>
+                    <Accordion title="commit-msg.sample">
+                    </Accordion>
+                    <Accordion title="pre-merge-commit.sample">
+                    </Accordion>
+                    <Accordion title="pre-push.sample">
+                    </Accordion>
+                    <Accordion title="pre-rebase.sample">
+                    </Accordion>
+                    <Accordion title="update.sample">
+                    </Accordion>
+                    <Accordion title="applypatch-msg.sample">
+                    </Accordion>
+                    <Accordion title="prepare-commit-msg.sample">
+                    </Accordion>
+                  </Accordion>
+                  <Accordion title="HEAD">
+                  </Accordion>
+                  <Accordion title="info">
+                    <Accordion title="exclude">
+                    </Accordion>
+                  </Accordion>
+                  <Accordion title="packed-refs">
+                  </Accordion>
+                  <Accordion title="description">
+                  </Accordion>
+                </AccordionGroup>
+              </Accordion>
+            </AccordionGroup>
+          </Accordion>
+        </AccordionGroup>
+      </Accordion>
+    </AccordionGroup>
+  </Accordion>
+</AccordionGroup>
