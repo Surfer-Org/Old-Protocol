@@ -30,84 +30,308 @@ Last updated: 2024-10-22
 
 <AccordionGroup>
   <Accordion title="LinkedIn Data Export Folder">
-<AccordionGroup>
-  <Accordion title="Ad_Targeting.csv">
-    | Column | Data Type | Example Value |
-    |---------------|-----------|---------------|
-    | Member Age | String | 25 to 34 |
-    | Buyer Groups | String | (empty) |
-    | Company Names | String | Company A; Company B; Company C |
-    | Company Follower of | String | Technology Company X; Research Institute Y; University Z |
-    | Company Category | String | (empty) |
-    | Company Size | String | 11-50 employees |
-    | Degrees | String | Bachelor's Degree; Master's Degree |
-    | degreeClass | Integer | 100 |
-    | Member Schools | String | University A; College B |
-    | Company Growth Rate | String | 10%+ company growth |
-    | Fields of Study | String | Computer Science; Engineering; Business Administration |
-    | Company Connections | String | (empty) |
-    | Function By Size | String | (empty) |
-    | Job Functions | String | Information Technology |
-    | Member Gender | String | (empty) |
-    | Graduation Year | Integer | 2020 |
-    | Member Groups | String | Professional Group
+    <AccordionGroup>
+      <Accordion title="Ad_Targeting.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Member Age | String | 25 to 34 |
+        | Buyer Groups | String | (empty) |
+        | Company Names | String | Company A; Company B; Company C |
+        | Company Follower of | String | Technology Company X; Research Institute Y; University Z |
+        | Company Category | String | (empty) |
+        | Company Size | String | 11-50 employees |
+        | Degrees | String | Bachelor's Degree; Master's Degree |
+        | degreeClass | Integer | 100 |
+        | Member Schools | String | University A; College B |
+        | Company Growth Rate | String | 10%+ company growth |
+        | Fields of Study | String | Computer Science; Engineering; Business Administration |
+        | Company Connections | String | (empty) |
+        | Function By Size | String | (empty) |
+        | Job Functions | String | Information Technology |
+        | Member Gender | String | (empty) |
+        | Graduation Year | Integer | 2020 |
+        | Member Groups | String | Professional Group |
+        | Company Industries | String | Technology; Finance |
+        | Member Interests | String | AI; Machine Learning |
+        | Interface Locales | String | en_US |
+        | interfaceLocale | String | en_US |
+        | Member Traits | String | Analytical; Team Player |
+        | Profile Locations | String | New York, USA |
+        | Company Revenue | String | $1M-$5M |
+        | Job Seniorities | String | Senior |
+        | Member Skills | String | Python; Data Analysis |
+        | Job Titles | String | Data Scientist |
+        | Years of Experience | String | 5-10 years |
+      </Accordion>
+
+      <Accordion title="Ads Clicked.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Ad clicked Date | DateTime | 2023/10/03 17:32:58 UTC |
+        | Ad Title/Id | Integer | 310211856 |
+      </Accordion>
+
+      <Accordion title="Certifications.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Name | String | Responsible Conduct of Research (RCR) Training - Undergraduate Course |
+        | Url | String | https://www.citiprogram.org/verify/?w6bfc9b5b-7ed0-4a69-a695-30eb7211d041-54231754 |
+        | Authority | String | CITI Program |
+        | Started On | Date | Feb 2023 |
+        | Finished On | Date | Feb 2027 |
+        | License Number | String | 54212354 |
+      </Accordion>
+
+      <Accordion title="Comments.csv">
+        | Variable Name | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Date | DateTime | 2024-07-22 02:04:27 |
+        | Link | String | https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7219793215577583617 |
+        | Message | String | [User] agreed. any updates? we have no access still. |
+      </Accordion>
+
+      <Accordion title="Company Follows.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Organization | String | StartOps |
+        | Followed On | DateTime | Mon Aug 12 09:44:32 UTC 2024 |
+      </Accordion>
+
+      <Accordion title="Connections.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | First Name | String | Mira |
+        | Last Name | String | Kim |
+        | URL | String | https://www.linkedin.com/in/miraikim |
+        | Email Address | String | (empty) |
+        | Company | String | SAIC |
+        | Position | String | Machine Learning Engineer |
+        | Connected On | Date | 11 Aug 2024 |
+        | Notes: | String | Met at AI conference |
+      </Accordion>
+
+      <Accordion title="Education.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | School Name | String | Purdue University College of Engineering |
+        | Start Date | Date | Aug 2022 |
+        | End Date | Date | May 2026 |
+        | Notes | String | Double minor in Artificial Intelligence and Mathematics |
+        | Degree Name | String | Bachelor of Engineering - BE |
+        | Activities | String | Purdue Founders, Boiler Bhangra, ML@Purdue, Photography Club, Undergraduate Research Accelerator LC |
+      </Accordion>
+
+      <Accordion title="Email Addresses.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Email Address | String | example@example.com |
+        | Confirmed | String | Yes |
+        | Primary | String | Yes |
+        | Updated On | String | 2024-10-01 |
+      </Accordion>
+
+      <Accordion title="Inferences_about_you.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Category | String | Professional |
+        | Type of inference | String | Skill |
+        | Description | String | Likely to be skilled in data analysis |
+        | Inference | Boolean | True |
+      </Accordion>
+
+      <Accordion title="InstantReposts.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Date | String | 2024-09-15 |
+        | Link | String | https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A123456789 |
+      </Accordion>
+
+      <Accordion title="Invitations.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | From | String | John Doe |
+        | To | String | Jane Smith |
+        | Sent At | String | 2024-08-10 |
+        | Message | String | Let's connect! |
+        | Direction | String | Outgoing |
+        | inviterProfileUrl | String | https://www.linkedin.com/in/johndoe |
+        | inviteeProfileUrl | String | https://www.linkedin.com/in/janesmith |
+      </Accordion>
+
+      <Accordion title="Learning.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Content Title | String | Introduction to Machine Learning |
+        | Content Description | String | A comprehensive guide to ML |
+        | Content Type | String | Video |
+        | Content Last Watched Date (if viewed) | String | 2024-09-20 |
+        | Content Completed At (if completed) | String | 2024-09-25 |
+        | Content Saved | Boolean | True |
+        | Notes taken on videos (if taken) | String | Important concepts on supervised learning |
+      </Accordion>
+
+      <Accordion title="Logins.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Login Date | String | 2024-10-01 08:00:00 |
+        | IP Address | String | 192.168.1.1 |
+        | User Agent | String | Mozilla/5.0 |
+        | Login Type | String | Web |
+      </Accordion>
+
+      <Accordion title="Member_Follows.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Date | String | 2024-08-15 |
+        | Status | String | Active |
+        | FullName | String | Alex Johnson |
+      </Accordion>
+
+      <Accordion title="Messages.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | CONVERSATION ID | String | 123456789 |
+        | CONVERSATION TITLE | String | Project Discussion |
+        | FROM | String | Alice |
+        | SENDER PROFILE URL | String | https://www.linkedin.com/in/alice |
+        | TO | String | Bob |
+        | RECIPIENT PROFILE URLS | String | https://www.linkedin.com/in/bob |
+        | DATE | String | 2024-09-30 |
+        | SUBJECT | String | Meeting Follow-up |
+        | CONTENT | String | Let's schedule a follow-up meeting. |
+        | FOLDER | String | Inbox |
+        | IS MESSAGE DRAFT | String | No |
+      </Accordion>
+
+      <Accordion title="Organizations.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Name | String | Tech Innovators |
+        | Description | String | A group of tech enthusiasts |
+        | Position | String | Member |
+        | Started On | String | 2023-01-01 |
+        | Finished On | String | 2024-01-01 |
+      </Accordion>
+
+      <Accordion title="PhoneNumbers.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Extension | String | 123 |
+        | Number | String | 555-1234 |
+        | Type | String | Mobile |
+      </Accordion>
+
+      <Accordion title="Positions.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Company Name | String | Tech Corp |
+        | Title | String | Software Engineer |
+        | Description | String | Developing software solutions |
+        | Location | String | San Francisco, CA |
+        | Started On | String | 2022-06-01 |
+        | Finished On | String | 2024-06-01 |
+      </Accordion>
+
+      <Accordion title="Profile.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | First Name | String | John |
+        | Last Name | String | Doe |
+        | Maiden Name | String | (empty) |
+        | Address | String | 123 Main St, Anytown, USA |
+        | Birth Date | String | 1990-01-01 |
+        | Headline | String | Experienced Software Developer |
+        | Summary | String | Passionate about building scalable software |
+        | Industry | String | Information Technology |
+        | Zip Code | Integer | 12345 |
+        | Geo Location | String | 37.7749° N, 122.4194° W |
+        | Twitter Handles | String | @johndoe |
+        | Websites | String | www.johndoe.com |
+        | Instant Messengers | String | johndoe123 |
+      </Accordion>
+
+      <Accordion title="Profile Summary.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Profile Summary | String | Experienced in software development and data analysis |
+      </Accordion>
+
+      <Accordion title="Projects.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Title | String | AI Research Project |
+        | Description | String | Research on AI algorithms |
+        | Url | String | https://www.example.com/project |
+        | Started On | String | 2023-05-01 |
+        | Finished On | String | 2024-05-01 |
+      </Accordion>
+
+      <Accordion title="Reactions.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Date | String | 2024-09-10 |
+        | Type | String | Like |
+        | Link | String | https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A987654321 |
+      </Accordion>
+
+      <Accordion title="Receipts.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | First Name | String | Jane |
+        | Last Name | String | Smith |
+        | Billing Country | String | USA |
+        | Postal Code | Integer | 54321 |
+        | Transaction Made At | String | 2024-08-01 |
+        | Payment Method Type | String | Credit Card |
+        | Invoice Number | Integer | 123456 |
+        | Description | String | LinkedIn Premium Subscription |
+        | Tax Amount | Integer | 10 |
+        | Sub Total | Integer | 90 |
+        | Total Amount | Integer | 100 |
+        | Currency Code | String | USD |
+      </Accordion>
+
+      <Accordion title="Registration.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Registered At | String | 2024-01-01 |
+        | Registration Ip | String | 192.168.0.1 |
+        | Subscription Types | String | Premium |
+      </Accordion>
+
+      <Accordion title="Rich Media.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Type | String | Image |
+        | Link | String | https://www.example.com/image.png |
+      </Accordion>
+
+      <Accordion title="Security Challenges.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Challenge Date | String | 2024-09-01 |
+        | IP Address | String | 192.168.1.2 |
+        | User Agent | String | Chrome/85.0 |
+        | Country | String | USA |
+        | Challenge Type | String | CAPTCHA |
+      </Accordion>
+
+      <Accordion title="Shares.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Date | String | 2024-09-05 |
+        | ShareLink | String | https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A123456789 |
+        | ShareCommentary | String | Check out this article! |
+        | SharedUrl | String | https://www.example.com/article |
+        | MediaUrl | String | https://www.example.com/image.jpg |
+        | Visibility | String | Public |
+      </Accordion>
+
+      <Accordion title="Skills.csv">
+        | Column | Data Type | Example Value |
+        |---------------|-----------|---------------|
+        | Name | String | Data Analysis |
+      </Accordion>
+    </AccordionGroup>
   </Accordion>
-
-  <Accordion title="Ads Clicked.csv">
-    | Column | Data Type | Example Value |
-    |---------------|-----------|---------------|
-    | Ad clicked Date | DateTime | 2023/10/03 17:32:58 UTC |
-    | Ad Title/Id | Integer | 310211856 |
-  </Accordion>
-
-  <Accordion title="Certifications.csv">
-    | Column | Data Type | Example Value |
-    |---------------|-----------|---------------|
-    | Name | String | Responsible Conduct of Research (RCR) Training - Undergraduate Course |
-    | Url | String | https://www.citiprogram.org/verify/?w6bfc9b5b-7ed0-4a69-a695-30eb7211d041-54231754 |
-    | Authority | String | CITI Program |
-    | Started On | Date | Feb 2023 |
-    | Finished On | Date | Feb 2027 |
-    | License Number | String | 54212354 |
-  </Accordion>
-
-  <Accordion title="Comments.csv">
-    | Variable Name | Data Type | Example Value |
-    |---------------|-----------|---------------|
-    | Date | <span style={{ color: 'blue' }}>DateTime</span> | 2024-07-22 02:04:27 |
-    | Link | <span style={{ color: 'green' }}>String</span> | https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7219793215577583617 |
-    | Message | <span style={{ color: 'green' }}>String</span> | <span style={{ color: 'red' }}>[User]</span> agreed. any updates? we have no access still. |
-  </Accordion>
-
-  <Accordion title="Company Follows.csv">
-| Column | Data Type | Example Value |
-|---------------|-----------|---------------|
-| Organization | String | StartOps |
-| Followed On | DateTime | Mon Aug 12 09:44:32 UTC 2024 |
-</Accordion>
-<Accordion title="Connections.csv">
-| Column | Data Type | Example Value |
-|---------------|-----------|---------------|
-| First Name | String | Mira |
-| Last Name | String | Kim |
-| URL | String | https://www.linkedin.com/in/miraikim |
-| Email Address | String | (empty) |
-| Company | String | SAIC |
-| Position | String | Machine Learning Engineer |
-| Connected On | Date | 11 Aug 2024 |
-</Accordion>
-
-<Accordion title="Education.csv">
-| Column | Data Type | Example Value |
-|---------------|-----------|---------------|
-| School Name | String | Purdue University College of Engineering |
-| Start Date | Date | Aug 2022 |
-| End Date | Date | May 2026 |
-| Notes | String | Double minor in Artificial Intelligence and Mathematics |
-| Degree Name | String | Bachelor of Engineering - BE |
-| Activities | String | Purdue Founders, Boiler Bhangra, ML@Purdue, Photography Club, Undergraduate Research Accelerator LC |
-</Accordion>
-
-</AccordionGroup>
-</Accordion>
 </AccordionGroup>

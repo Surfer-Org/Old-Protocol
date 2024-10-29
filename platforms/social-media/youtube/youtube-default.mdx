@@ -46,3 +46,167 @@ Last updated: 2024-10-22
     </Frame>
   </Step>
 </Steps>
+
+## Data Export Format
+
+Filetype: `ZIP`
+
+<AccordionGroup>
+  <Accordion title="YouTube Export Folder">
+    <AccordionGroup>
+      <Accordion title="Subscriptions">
+        <Accordion title="subscriptions.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Channel Id | String |
+          | Channel Url | String |
+          | Channel Title | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Playlists">
+        <Accordion title="playlist_1.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Video ID | String |
+          | Playlist Video Creation Timestamp | String |
+        </Accordion>
+        <Accordion title="playlists.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Playlist ID | String |
+          | Add new videos to top | Boolean |
+          | Playlist Description (Original) | String |
+          | Playlist Image 1 Create Timestamp | String |
+          | Playlist Image 1 URL | String |
+          | Playlist Image 1 Height | Integer |
+          | Playlist Image 1 Width | Integer |
+          | Playlist Image 2 Create Timestamp | String |
+          | Playlist Image 2 URL | String |
+          | Playlist Image 2 Height | Integer |
+          | Playlist Image 2 Width | Integer |
+          | Playlist Title (Original) | String |
+          | Playlist Title (Original) Language | String |
+          | Playlist Create Timestamp | String |
+          | Playlist Update Timestamp | String |
+          | Playlist Video Order | String |
+          | Playlist Visibility | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Video Metadata">
+        <Accordion title="video texts.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Video ID | String |
+          | Video Text Create Timestamp | String |
+          | Video Description Text Segments 1 | String |
+          | Video Title Text Segments 1 | String |
+          | Video Text Update Timestamp | String |
+        </Accordion>
+        <Accordion title="videos.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Video ID | String |
+          | Approx Duration (ms) | Integer |
+          | Video Audio Language | String |
+          | Video Category | String |
+          | Video Description (Original) | String |
+          | Video Description (Original) Language | String |
+          | Channel ID | String |
+          | Video Title (Original) | String |
+          | Video Title (Original) Language | String |
+          | Privacy | String |
+          | Video State | String |
+          | Video Create Timestamp | String |
+          | Video Publish Timestamp | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Channels">
+        <Accordion title="channel URL configs.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Channel ID | String |
+          | Channel Vanity URL 1 Name | String |
+          | Channel Vanity URL 2 Name | String |
+        </Accordion>
+        <Accordion title="channel feature data.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Channel ID | String |
+          | Channel Auto Moderation in Live Chat | Boolean |
+          | Video Default Allowed Comments Type | String |
+          | Video Default Targeted Audience | String |
+          | Video Default License | String |
+          | Video Default Location Latitude | Integer |
+          | Video Default Location Longitude | Integer |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Videos">
+        <Card title="video_1.mp4">
+      
+        </Card>
+        <Card title="video_2.mp4">
+  
+        </Card>
+      </Accordion>
+      <Accordion title="Clips">
+        <Accordion title="clips.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Clip ID | String |
+          | Time Created | String |
+          | Title | String |
+          | Video ID 1 | String |
+          | Start Time 1 | String |
+          | Duration 1 | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Comments">
+        <Accordion title="comments.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Comment ID | String |
+          | Channel ID | String |
+          | Comment Create Timestamp | String |
+          | Price | Integer |
+          | Parent Comment ID | String |
+          | Post ID | String |
+          | Video ID | String |
+          | Comment Text | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="Live Chats">
+        <Accordion title="live chats.csv">
+          | Column | Data Type |
+          |--------|-----------|
+          | Live Chat ID | String |
+          | Channel ID | String |
+          | Live Chat Create Timestamp | String |
+          | Price | Integer |
+          | Video ID | String |
+          | Live Chat Text | String |
+        </Accordion>
+      </Accordion>
+      <Accordion title="History">
+        <Accordion title="watch-history.json">
+          ```json
+          [
+            {
+              "header": "string",
+              "title": "string",
+              "titleUrl": "string",
+              "time": "string",
+              "products": ["array"],
+              "details": ["array"],
+              "activityControls": ["array"]
+            },
+            ...
+          ]
+          ```
+        </Accordion>
+      </Accordion>
+      <Card title="archive_browser.html">
+
+      </Card>
+    </AccordionGroup>
+  </Accordion>
+</AccordionGroup>

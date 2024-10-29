@@ -24,7 +24,7 @@
     }
   ],
   "topbarCtaButton": {
-    "type": "github",
+    "name": "Contribute",
     "url": "https://github.com/Surfer-Protocol/Protocol"
   },
   "tabs": [
@@ -124,6 +124,13 @@
           "pages": [
             "platforms/gmail/gmail-main",
             "platforms/gmail/gmail-default"
+          ]
+        },
+        {
+          "group": "ChatGPT",
+          "pages": [
+            "platforms/chatgpt/chatgpt-main",
+            "platforms/chatgpt/chatgpt-default"
           ]
         }
       ]

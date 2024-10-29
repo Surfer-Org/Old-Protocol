@@ -1,0 +1,392 @@
+---
+title: 'ChatGPT Default Export'
+description: 'Instructions for exporting your ChatGPT data.'
+---
+
+<Check>
+Last updated: 2024-10-28
+</Check>
+
+<Steps>
+  <Step title="Go to ChatGPT Data Controls">
+    Navigate to [ChatGPT Data Controls](https://chatgpt.com/#settings/DataControls)
+    <Frame>
+      <img src="/images/chatgpt/default/step1.png" />
+    </Frame>
+  </Step>
+  <Step title="Confirm the export and go to your email">
+    <Frame>
+      <img src="/images/chatgpt/default/step2.png" />
+    </Frame>
+  </Step>
+  <Step title="Download the ZIP file">
+    <Frame>
+      <img src="/images/chatgpt/default/step3.png" />
+    </Frame>
+  </Step>
+</Steps>
+
+# Data Export Format
+
+Export type: `ZIP`
+
+<AccordionGroup>
+<Accordion title="user.json">
+  ```json
+  {
+    "id": "string",
+    "email": "string",
+    "chatgpt_plus_user": "boolean",
+    "phone_number": "string"
+  }
+  ```
+</Accordion>
+<Accordion title="conversations.json">
+  ```json
+  [
+    {
+      "title": "string",
+      "create_time": "float",
+      "update_time": "float",
+      "mapping": {
+        "c785a201-5ea4-4c9f-b604-5a06f5bda547": {
+          "id": "string",
+          "message": {
+            "id": "string",
+            "author": {
+              "role": "string",
+              "name": "null",
+              "metadata": {}
+            },
+            "create_time": "null",
+            "update_time": "null",
+            "content": {
+              "content_type": "string",
+              "parts": [
+                {
+                  "data_type": "string"
+                }
+              ]
+            },
+            "status": "string",
+            "end_turn": "boolean",
+            "weight": "float",
+            "metadata": {
+              "is_visually_hidden_from_conversation": "boolean"
+            },
+            "recipient": "string",
+            "channel": "null"
+          },
+          "parent": "string",
+          "children": [
+            {
+              "data_type": "string"
+            }
+          ]
+        },
+        "aaa1615b-f183-444f-9bbd-76a20d2a31f9": {
+          "id": "string",
+          "message": "null",
+          "parent": "null",
+          "children": [
+            {
+              "data_type": "string"
+            }
+          ]
+        },
+        "aaa2da1a-6926-4ea2-b527-1dbf42cb04d8": {
+          "id": "string",
+          "message": {
+            "id": "string",
+            "author": {
+              "role": "string",
+              "name": "null",
+              "metadata": {}
+            },
+            "create_time": "float",
+            "update_time": "null",
+            "content": {
+              "content_type": "string",
+              "parts": [
+                {
+                  "data_type": "string"
+                }
+              ]
+            },
+            "status": "string",
+            "end_turn": "null",
+            "weight": "float",
+            "metadata": {
+              "serialization_metadata": {
+                "custom_symbol_offsets": {}
+              },
+              "request_id": "string",
+              "message_source": "null",
+              "timestamp_": "string",
+              "message_type": "null"
+            },
+            "recipient": "string",
+            "channel": "null"
+          },
+          "parent": "string",
+          "children": [
+            {
+              "data_type": "string"
+            }
+          ]
+        },
+        "246fa890-a3fe-4619-9198-1d0a6c37593f": {
+          "id": "string",
+          "message": {
+            "id": "string",
+            "author": {
+              "role": "string",
+              "name": "null",
+              "metadata": {}
+            },
+            "create_time": "float",
+            "update_time": "null",
+            "content": {
+              "content_type": "string",
+              "parts": [
+                {
+                  "data_type": "string"
+                }
+              ]
+            },
+            "status": "string",
+            "end_turn": "null",
+            "weight": "float",
+            "metadata": {
+              "message_type": "null",
+              "model_slug": "string",
+              "default_model_slug": "string",
+              "parent_id": "string",
+              "request_id": "string",
+              "timestamp_": "string"
+            },
+            "recipient": "string",
+            "channel": "null"
+          },
+          "parent": "string",
+          "children": [
+            {
+              "data_type": "string"
+            }
+          ]
+        },
+        "c7d55b02-6fef-4575-807b-79d08f985206": {
+          "id": "string",
+          "message": {
+            "id": "string",
+            "author": {
+              "role": "string",
+              "name": "null",
+              "metadata": {}
+            },
+            "create_time": "float",
+            "update_time": "null",
+            "content": {
+              "content_type": "string",
+              "parts": [
+                {
+                  "data_type": "string"
+                }
+              ]
+            },
+            "status": "string",
+            "end_turn": "boolean",
+            "weight": "float",
+            "metadata": {
+              "finish_details": {
+                "type": "string",
+                "stop_tokens": [
+                  {
+                    "data_type": "integer"
+                  }
+                ]
+              },
+              "is_complete": "boolean",
+              "citations": {},
+              "content_references": {},
+              "gizmo_id": "null",
+              "message_type": "null",
+              "model_slug": "string",
+              "default_model_slug": "string",
+              "parent_id": "string",
+              "request_id": "string",
+              "timestamp_": "string"
+            },
+            "recipient": "string",
+            "channel": "null"
+          },
+          "parent": "string",
+          "children": {}
+        }
+      },
+      "moderation_results": {},
+      "current_node": "string",
+      "plugin_ids": "null",
+      "conversation_id": "string",
+      "conversation_template_id": "null",
+      "gizmo_id": "null",
+      "is_archived": "boolean",
+      "safe_urls": {},
+      "default_model_slug": "string",
+      "conversation_origin": "null",
+      "voice": "null",
+      "async_status": "null",
+      "id": "string"
+    }
+  ]
+  ```
+</Accordion>
+<Accordion title="model_comparisons.json">
+  ```json
+  [
+    {
+      "id": "string",
+      "conversation_id": "string",
+      "user_id": "string",
+      "create_time": "date",
+      "workspace_id": "null",
+      "content": {
+        "input": {
+          "prompt_convo": {
+            "id": "string",
+            "messages": [
+              {
+                "id": "string",
+                "author": {
+                  "role": "string",
+                  "name": "null"
+                },
+                "create_time": "null",
+                "update_time": "null",
+                "content": {
+                  "content_type": "string",
+                  "parts": [
+                    {
+                      "data_type": "string"
+                    }
+                  ]
+                },
+                "status": "string",
+                "end_turn": "boolean",
+                "weight": "float",
+                "recipient": "string",
+                "channel": "null"
+              }
+            ],
+            "create_time": "null",
+            "update_time": "null"
+          },
+          "conversation_id": "string"
+        },
+        "output": {
+          "feedback_step_1": {
+            "rating": "string",
+            "critique_text": "string",
+            "tags": {}
+          },
+          "feedback_step_2": {
+            "original_turn": [
+              {
+                "id": "string",
+                "author": {
+                  "role": "string",
+                  "name": "null"
+                },
+                "create_time": "float",
+                "update_time": "null",
+                "content": {
+                  "content_type": "string",
+                  "parts": [
+                    {
+                      "data_type": "string"
+                    }
+                  ]
+                },
+                "status": "string",
+                "end_turn": "null",
+                "weight": "float",
+                "recipient": "string",
+                "channel": "null"
+              }
+            ],
+            "new_turn": [
+              {
+                "id": "string",
+                "author": {
+                  "role": "string",
+                  "name": "null"
+                },
+                "create_time": "float",
+                "update_time": "null",
+                "content": {
+                  "content_type": "string",
+                  "parts": [
+                    {
+                      "data_type": "string"
+                    }
+                  ]
+                },
+                "status": "string",
+                "end_turn": "null",
+                "weight": "float",
+                "recipient": "string",
+                "channel": "null"
+              }
+            ],
+            "completion_comparison_rating": "string",
+            "new_completion_placement": "string",
+            "feedback_start_time": "integer",
+            "compare_step_start_time": "integer",
+            "new_completion_load_start_time": "integer",
+            "new_completion_load_end_time": "integer",
+            "original_completion_load_start_time": "integer",
+            "original_completion_load_end_time": "integer",
+            "frontend_submission_time": "integer",
+            "left_visibility_initial": "float",
+            "left_visibility_max": "float",
+            "right_visibility_initial": "float",
+            "right_visibility_max": "float"
+          }
+        }
+      },
+      "storage_protocol": "string"
+    }
+  ]
+  ```
+</Accordion>
+<Accordion title="message_feedback.json">
+  ```json
+  [
+    {
+      "id": "string",
+      "conversation_id": "string",
+      "user_id": "string",
+      "rating": "string",
+      "create_time": "date",
+      "workspace_id": "null",
+      "content": "string",
+      "storage_protocol": "string"
+    }
+  ]
+  ```
+</Accordion>
+<Accordion title="shared_conversations.json">
+  ```json
+  [
+    {
+      "id": "string",
+      "conversation_id": "string",
+      "title": "string",
+      "is_anonymous": "boolean"
+    }
+  ]
+  ```
+</Accordion>
+<Card title="chat.html"></Card>
+
+</AccordionGroup>
