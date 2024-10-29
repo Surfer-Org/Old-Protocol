@@ -123,6 +123,13 @@
             "platforms/gmail/gmail-main",
             "platforms/gmail/gmail-default"
           ]
+        },
+        {
+          "group": "ChatGPT",
+          "pages": [
+            "platforms/chatgpt/chatgpt-main",
+            "platforms/chatgpt/chatgpt-default"
+          ]
         }
       ]
     },
