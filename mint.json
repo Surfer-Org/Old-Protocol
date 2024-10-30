@@ -8,6 +8,9 @@
     "href": "https://surferprotocol.org"
   },
   "theme": "venus",
+  "codeBlock": {
+    "mode": "auto"
+  },
   "colors": {
     "primary": "#0066cc",
     "light": "#4da6ff",
@@ -144,5 +147,11 @@
     "x": "https://x.com/surfsupai",
     "github": "https://github.com/Surfer-Protocol",
     "linkedin": "https://linkedin.com/in/sahillalani"
-  }
+  },
+  "seo": {
+    "indexHiddenPages": true
+},
+"metadata": {
+    "og:image": "https://mintlify.s3-us-west-1.amazonaws.com/surfer/images/CoverImage2.png"
+}
 }
