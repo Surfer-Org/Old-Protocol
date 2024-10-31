@@ -12,15 +12,19 @@
     "mode": "auto"
   },
   "colors": {
-    "primary": "#0066cc",
-    "light": "#4da6ff",
-    "dark": "#003366",
+    "primary": "#669CAF",
+    "light": "#E5FCFF",
+    "dark": "#1E4266",
     "anchors": {
-      "from": "#0066cc",
-      "to": "#4da6ff"
+      "from": "#669CAF",
+      "to": "#E5FCFF"
     }
   },
   "topbarLinks": [
+    {
+      "name": "Community",
+      "url": "https://discord.gg/Tjg7pjcFNP"
+    },
     {
       "name": "Support",
       "url": "https://x.com/SahilLalani0"
@@ -36,13 +40,7 @@
       "url": "platforms"
     }
   ],
-  "anchors": [
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/Tjg7pjcFNP"
-    }
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "The Surfer Protocol",
@@ -140,7 +138,9 @@
     },
     {
       "group": "Community Projects",
-      "pages": ["community-projects/introduction"]
+      "pages": [
+        "community-projects/introduction"
+      ]
     }
   ],
   "footerSocials": {
@@ -150,8 +150,8 @@
   },
   "seo": {
     "indexHiddenPages": true
-},
-"metadata": {
+  },
+  "metadata": {
     "og:image": "https://mintlify.s3-us-west-1.amazonaws.com/surfer/images/CoverImage2.png"
-}
+  }
 }
