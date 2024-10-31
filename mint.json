@@ -140,7 +140,9 @@
     {
       "group": "Community Projects",
       "pages": [
-        "community-projects/introduction"
+        "community-projects/introduction",
+        "community-projects/our-partners",
+        "community-projects/all-projects"
       ]
     }
   ],
@@ -154,5 +156,86 @@
   },
   "metadata": {
     "og:image": "https://mintlify.s3-us-west-1.amazonaws.com/surfer/images/CoverImage2.png"
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/surfsupai",
+    "github": "https://github.com/Surfer-Protocol",
+    "linkedin": "https://linkedin.com/in/sahillalani",
+    "discord": "https://discord.gg/Tjg7pjcFNP"
+    },
+    "links": [
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Customers",
+            "url": "https://mintlify.com/customers"
+          },
+          {
+            "label": "Enterprise",
+            "url": "https://mintlify.com/enterprise"
+          },
+          {
+            "label": "Request Preview",
+            "url": "https://mintlify.com/preview"
+          },
+          {
+            "label": "Integrations",
+            "url": "https://mintlify.com/docs/integrations/analytics/overview"
+          },
+          {
+            "label": "Templates",
+            "url": "https://github.com/mintlify/themes"
+          },
+          {
+            "label": "Wall of Love",
+            "url": "https://mintlify.com/love"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Careers",
+            "url": "https://mintlify.com/careers"
+          },
+          {
+            "label": "Blog",
+            "url": "https://mintlify.com/blog"
+          },
+          {
+            "label": "Public Roadmap",
+            "url": "https://feedback.mintlify.com/roadmap"
+          },
+          {
+            "label": "Security",
+            "url": "https://mintlify.com/security/responsible-disclosure"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "url": "https://mintlify.com/legal/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "url": "https://mintlify.com/legal/terms"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-RCYWHL7EQ7"
+    },
+    "koala": {
+      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    }
   }
 }
