@@ -138,9 +138,10 @@
       ]
     },
     {
-      "group": "Community Projects",
+      "group": "Projects",
       "pages": [
-        "community-projects/all-projects"
+        "community-projects/all-projects",
+        "community-projects/surfer-projects"
       ]
     }
   ],
