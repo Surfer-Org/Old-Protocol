@@ -140,14 +140,12 @@
     {
       "group": "Community Projects",
       "pages": [
-        "community-projects/introduction",
-        "community-projects/our-partners",
         "community-projects/all-projects"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/surfsupai",
+    "x": "https://x.com/surferprotocol",
     "github": "https://github.com/Surfer-Protocol",
     "linkedin": "https://linkedin.com/in/sahillalani"
   },
@@ -159,10 +157,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/surfsupai",
-    "github": "https://github.com/Surfer-Protocol",
-    "linkedin": "https://linkedin.com/in/sahillalani",
-    "discord": "https://discord.gg/Tjg7pjcFNP"
+      "x": "https://x.com/surferprotocol",
+      "github": "https://github.com/Surfer-Protocol",
+      "linkedin": "https://linkedin.com/in/sahillalani",
+      "discord": "https://discord.gg/Tjg7pjcFNP"
     },
     "links": [
       {
