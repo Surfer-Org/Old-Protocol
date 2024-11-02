@@ -7,10 +7,13 @@
     "dark": "/logo/dark.svg",
     "href": "https://surferprotocol.org"
   },
-  "theme": "venus",
   "codeBlock": {
     "mode": "auto"
   },
+  "modeToggle": {
+  "default": "dark",
+  "isHidden": true
+},
   "colors": {
     "primary": "#669CAF",
     "light": "#E5FCFF",
@@ -35,21 +38,32 @@
     "url": "https://github.com/Surfer-Protocol/Protocol"
   },
   "tabs": [
-    {
-      "name": "Platforms",
-      "url": "platforms"
-    }
-  ],
+        {
+            "name": "Overview",
+            "url": "overview",
+            "version": "English"
+        },
+        {
+            "name": "Documentation",
+            "url": "platforms",
+            "version": "English"
+        },
+        {
+            "name": "Projects",
+            "url": "community-projects",
+            "version": "English"
+        }
+    ],
   "anchors": [],
   "navigation": [
     {
       "group": "The Surfer Protocol",
       "pages": [
-        "home",
-        "manifesto",
-        "partnerships",
-        "contributing",
-        "changelog"
+        "overview/home",
+        "overview/manifesto",
+        "overview/partnerships",
+        "overview/contributing",
+        "overview/changelog"
       ]
     },
     {
@@ -138,7 +152,7 @@
       ]
     },
     {
-      "group": "Projects",
+      "group": "Personal Data Projects",
       "pages": [
         "community-projects/all-projects",
         "community-projects/surfer-projects"
@@ -229,12 +243,15 @@
       }
     ]
   },
+  "versions": [
+        "English",
+        "日本語",
+        "Español",
+        "简体中文"
+    ],
   "analytics": {
-    "ga4": {
-      "measurementId": "G-RCYWHL7EQ7"
-    },
-    "koala": {
-      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    "posthog": {
+        "apiKey": "phc_J8JfLyVK6y5njgTEuTcNtKOewDE8QyczlrWl9ln5fKp"
     }
-  }
+}
 }
