@@ -7,7 +7,6 @@
     "dark": "/logo/dark.svg",
     "href": "https://surferprotocol.org"
   },
-  "theme": "venus",
   "codeBlock": {
     "mode": "auto"
   },
@@ -138,7 +137,7 @@
       ]
     },
     {
-      "group": "Projects",
+      "group": "Personal Data Projects",
       "pages": [
         "community-projects/all-projects",
         "community-projects/surfer-projects"
@@ -229,6 +228,13 @@
       }
     ]
   },
+  "versions": [
+        "English",
+        "日本語",
+        "Español",
+        "한국어",
+        "简体中文"
+    ],
   "analytics": {
     "ga4": {
       "measurementId": "G-RCYWHL7EQ7"
