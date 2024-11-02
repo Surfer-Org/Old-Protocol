@@ -10,6 +10,10 @@
   "codeBlock": {
     "mode": "auto"
   },
+  "modeToggle": {
+  "default": "dark",
+  "isHidden": true
+},
   "colors": {
     "primary": "#669CAF",
     "light": "#E5FCFF",
@@ -34,21 +38,32 @@
     "url": "https://github.com/Surfer-Protocol/Protocol"
   },
   "tabs": [
-    {
-      "name": "Platforms",
-      "url": "platforms"
-    }
-  ],
+        {
+            "name": "Overview",
+            "url": "overview",
+            "version": "English"
+        },
+        {
+            "name": "Documentation",
+            "url": "platforms",
+            "version": "English"
+        },
+        {
+            "name": "Projects",
+            "url": "community-projects",
+            "version": "English"
+        }
+    ],
   "anchors": [],
   "navigation": [
     {
       "group": "The Surfer Protocol",
       "pages": [
-        "home",
-        "manifesto",
-        "partnerships",
-        "contributing",
-        "changelog"
+        "overview/home",
+        "overview/manifesto",
+        "overview/partnerships",
+        "overview/contributing",
+        "overview/changelog"
       ]
     },
     {
@@ -232,7 +247,6 @@
         "English",
         "日本語",
         "Español",
-        "한국어",
         "简体中文"
     ],
   "analytics": {
