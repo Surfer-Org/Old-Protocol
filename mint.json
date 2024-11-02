@@ -236,11 +236,8 @@
         "简体中文"
     ],
   "analytics": {
-    "ga4": {
-      "measurementId": "G-RCYWHL7EQ7"
-    },
-    "koala": {
-      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    "posthog": {
+        "apiKey": "phc_J8JfLyVK6y5njgTEuTcNtKOewDE8QyczlrWl9ln5fKp"
     }
-  }
+}
 }
