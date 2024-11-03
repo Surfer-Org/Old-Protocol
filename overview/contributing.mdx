@@ -6,12 +6,36 @@ icon: readme
 mode: wide
 ---
 
+import { HeroCard } from '/snippets/components.mdx';
+
+<CardGroup cols={2}>
+  <Card 
+  img="https://raw.githubusercontent.com/mintlify/themes/main/quill/images/themes.svg"
+    title="Document an Export Schema"
+    href="/platforms/adding/platforms"
+  >
+    Add a new platform or export method to Surfer
+  </Card>
+  <Card img="https://raw.githubusercontent.com/mintlify/themes/main/quill/images/setting-up.svg"
+    title="List Your Project"
+    href="/community-projects/all-projects"
+  >
+    Write up a short description of your project and link to your project page
+  </Card>
+  <Card img="https://raw.githubusercontent.com/mintlify/themes/main/quill/images/themes.svg"
+    title="Join our Community"
+    href="https://discord.gg/surferprotocol"
+  >
+    Join our community on Discord to chat with other Personal Data Surfers
+  </Card>
+</CardGroup>
+
 ## Setup your development environment
 
 Clone the repository:
 
 ```git
-git clone https://github.com/Surfer-Org/Protocol.git
+git clone https://github.com/Surfer-Protocol/Protocol.git
 ```
 
 Navigate to the project directory:
