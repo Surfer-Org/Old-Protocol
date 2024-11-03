@@ -35,7 +35,7 @@
   ],
   "topbarCtaButton": {
     "name": "Contribute",
-    "url": "https://github.com/Surfer-Protocol/Protocol"
+    "url": "https://github.com/Surfer-Org/Protocol"
   },
   "tabs": [
         {
@@ -161,7 +161,7 @@
   ],
   "footerSocials": {
     "x": "https://x.com/surferprotocol",
-    "github": "https://github.com/Surfer-Protocol",
+    "github": "https://github.com/Surfer-Org",
     "linkedin": "https://linkedin.com/in/sahillalani"
   },
   "seo": {
@@ -173,7 +173,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/surferprotocol",
-      "github": "https://github.com/Surfer-Protocol",
+      "github": "https://github.com/Surfer-Org",
       "linkedin": "https://linkedin.com/in/sahillalani",
       "discord": "https://discord.gg/Tjg7pjcFNP"
     },

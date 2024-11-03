@@ -48,7 +48,7 @@ Surfer Protocol is an open-source project aimed at documenting the process of re
 
 To get started with contributing to Surfer Protocol, visit the [contributing guide](https://surferprotocol.org/contributing).
 
-See the open issues for [bug reports](https://github.com/surferprotocol/surfer-protocol/issues) and [feature requests](https://github.com/surferprotocol/surfer-protocol/issues).
+See the open issues for [bug reports](https://github.com/Surfer-Org/Protocol/issues) and [feature requests](https://github.com/Surfer-Org/Protocol/issues).
 
 ## Roadmap
 
@@ -75,16 +75,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Mintlify](https://mintlify.com/)
 
-[contributors-shield]: https://img.shields.io/github/contributors/Surfer-Protocol/Protocol.svg?style=for-the-badge
-[contributors-url]: https://github.com/Surfer-Protocol/Protocol/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Surfer-Protocol/Protocol.svg?style=for-the-badge
-[forks-url]: https://github.com/Surfer-Protocol/Protocol/network/members
-[stars-shield]: https://img.shields.io/github/stars/Surfer-Protocol/Protocol.svg?style=for-the-badge
-[stars-url]: https://github.com/Surfer-Protocol/Protocol/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Surfer-Protocol/Protocol.svg?style=for-the-badge
-[issues-url]: https://github.com/Surfer-Protocol/Protocol/issues
-[license-shield]: https://img.shields.io/github/license/Surfer-Protocol/Protocol.svg?style=for-the-badge
-[license-url]: https://github.com/Surfer-Protocol/Protocol/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/Surfer-Org/Protocol.svg?style=for-the-badge
+[contributors-url]: https://github.com/Surfer-Org/Protocol/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Surfer-Org/Protocol.svg?style=for-the-badge
+[forks-url]: https://github.com/Surfer-Org/Protocol/network/members
+[stars-shield]: https://img.shields.io/github/stars/Surfer-Org/Protocol.svg?style=for-the-badge
+[stars-url]: https://github.com/Surfer-Org/Protocol/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Surfer-Org/Protocol.svg?style=for-the-badge
+[issues-url]: https://github.com/Surfer-Org/Protocol/issues
+[license-shield]: https://img.shields.io/github/license/Surfer-Org/Protocol.svg?style=for-the-badge
+[license-url]: https://github.com/Surfer-Org/Protocol/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cerebrus-maximus
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
