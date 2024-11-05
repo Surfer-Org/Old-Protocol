@@ -61,9 +61,10 @@
       "pages": [
         "overview/home",
         "overview/manifesto",
-        "overview/partnerships",
+        "overview/use-cases",
         "overview/contributing",
-        "overview/changelog"
+        "overview/changelog",
+        "overview/partnerships"
       ]
     },
     {
